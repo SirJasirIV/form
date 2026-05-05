@@ -10,6 +10,8 @@ body{
     background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     height: 1030px;
     width: 680px;
+    display: flex;
+    flex-direction: column;
 }
 .rhalf{
     height: 313px;
@@ -135,4 +137,39 @@ button{
     padding-left: 0px;
     color: #596D48;
     font-weight: 600;
+}
+.odin{
+    background-color: rgba(0,0,0,0.5);
+    height: 200px;
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    padding-top: 60px;
+    width: 480px
+}
+.odin > div{
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 20px;  
+}
+img{
+    height: 150px ;
+    width: 100px;
+}
+.credit{
+    color: rgba(223, 224, 224,0.9);
+    font-weight: 500;
+    font-family: sans-serif;
+    justify-self: center;
+    padding-top: 580px;
+    padding-left: 0px;
+}
+.credit > span > span{
+    padding: 580px 0px 0px 0px;
+}
+a{
+    font-weight: 500;
+    color: rgba(223, 224, 224,0.9);
+    font-family: sans-serif;
 }
