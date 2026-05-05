@@ -12,12 +12,14 @@ body{
     width: 680px;
 }
 .rhalf{
-    height: 213px;
+    height: 313px;
     background-color: #ddddddc5;
     padding-top: 100px;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 25px;
+    display: flexbox;
+
 }
 .header > p{
     justify-self: center;
@@ -33,5 +35,74 @@ span{
 }
 .spancol > span + span{
    padding-top: 30px;
+   padding-bottom: 50px;
 }
-
+.midsect{
+    height: 343px;
+    background-color: rgb(255, 255, 255);
+    display: flexbox;
+    padding: 20px 0px 0px 40px;
+    flex-direction: column;
+    box-shadow: 2px 2px 9px;
+    
+}
+.namerow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.informrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.passrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.firstCol{
+   display: flex;
+   flex-direction: column;
+}
+.scndCol{
+    display: flex;
+    flex-direction: column;
+}
+.thirdCol{
+    display: flex;
+   flex-direction: column;
+}
+.fourthCol{
+    display: flex;
+   flex-direction: column;
+}
+.fifthCol{
+   display: flex;
+   flex-direction: column;
+}
+.sixthCol{
+    display: flex;
+   flex-direction: column;
+}
+label{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-bottom: 1px;
+    padding-top: 20px;
+}
+input{
+    margin-right: 200px;
+    padding: 4px 20px 4px 5px;
+    border: solid 1px;
+    border-radius: 3px;
+    border-color: green;
+}
+input:focus{
+    border: solid rgb(77, 77, 253) 2px;
+    box-shadow: 2px 2px 10px;
+}
+.passw:invalid{
+    border-color: rgb(175, 0, 0);
+}
